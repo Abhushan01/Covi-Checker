@@ -1,0 +1,122 @@
+/* base-style */
+*{
+    padding: 0;
+    margin:0;
+   }
+   
+   body{
+       background:#46a0f0;
+       color:#fff;
+   }
+   
+   
+   h1{
+       color:#fff;
+       font-size:40px;
+   }
+   
+   h3{
+       font-size: 20px;
+   }
+   
+   .nav-cont{
+       font-size:20px;
+       margin:0 300px 0 300px;
+   }
+   
+   .navbar-brand{
+       font-size:30px;
+   }
+   
+   footer{
+        
+        padding: 10px; 
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #151261;
+        color: white;
+        text-align: center;
+   }
+
+   .btn{
+    text-align: center;
+    background: rgb(1, 192, 49);
+    color:#fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 0.5px 0 #fff;
+    
+}
+
+/* home-section */
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.hero{
+    border-radius: 30px;
+    margin-top:100px;
+    display:flex;
+    width:60vw;
+    flex-direction: row;
+    justify-content:space-around;
+    background:rgba(0, 0, 0, 0.363);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 0.7px 0 #fff;
+}
+
+.cta{
+    margin-left:10px;
+    padding: 40px;
+    max-width: 600px;
+    color:rgb(216, 216, 216);
+}
+
+
+.covid-aware{
+    height:250px;
+    width:250px;
+    border-radius:50px;
+    padding:10px;
+    margin:20px;
+}
+
+/* prediction and result section */
+.form-cont{
+    width:45vw;
+    margin-top:15px;
+    background:rgba(0, 0, 0, 0.363);
+    padding:30px;
+    border-radius: 30px;
+    margin-bottom:30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 0.7px 0 #fff;
+}
+
+.resl-cont{
+    border-radius:30px;
+    margin-top:60px;
+    padding:20px;
+    width:50vw;
+    background:rgba(0, 0, 0, 0.363);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 0.7px 0 #fff;
+}
+
+.about-cont{
+    width:50vw;
+    margin-top: 5px;
+    margin-bottom:30px;
+    background:rgba(0, 0, 0, 0.363);
+    padding:20px;
+    border-radius:30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 0.7px 0 #fff;
+}
+
+.help-cont{
+    width:60vw;
+    margin-top: 5px;
+    margin-bottom:30px;
+    background:rgba(0, 0, 0, 0.363);
+    padding:30px;
+    border-radius:30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 0.7px 0 #fff;
+}
